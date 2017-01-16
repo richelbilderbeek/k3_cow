@@ -9,3 +9,4 @@ script:
   - cowsay -f ./k3.cow "Hallo"
   - cowsay -f ./kathleen.cow "Hallo"
   - cowsay -f ./kathleen2.cow "Hallo"
+  - cowsay -f ./klaasje.cow "Hallo"
