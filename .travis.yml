@@ -1,0 +1,10 @@
+sudo: require
+
+install:
+  - sudo apt-get install cowsay
+
+script: 
+  - export PATH=/usr/bin:/bin:/usr/games
+  - cowsay "Test"
+  - cowsay -f ./k3.cow "Hallo"
+

@@ -1,7 +1,7 @@
 $the_cow = <<"EOC";
         $thoughts   ^__^
          $thoughts  ($eyes)\\_______
-            (__)\\       )\\/\\
+   K3       (__)\\       )\\/\\
              $tongue ||----w |
                 ||     ||
 EOC
