@@ -1,6 +1,12 @@
-sudo: require
+language: cpp
+dist: bionic
+compiler: gcc
 
-install:
+install: 
+  - sudo apt update -qq
+  # Boost
+  - sudo apt install -qq libboost-all-dev
+  # Cowsay
   - sudo apt-get install cowsay
 
 script: 
